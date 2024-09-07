@@ -1,0 +1,7 @@
+.vscode/
+.DS_Store
+.jekyll-cache
+_site/
+.sass-cache
+.jekyll-metadata
+node_modules/
