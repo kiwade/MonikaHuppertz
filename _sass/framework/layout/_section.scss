@@ -166,6 +166,22 @@
     color: color("shades", "white");
     @include theme-text(color("pink", "lighten-1"));
   }
+  &.theme-blue-light {
+    background-color: color("blue", "lighten-1");
+    @include theme-text(color("blue", "darken-1"));
+  }
+
+  &.theme-blue {
+    background-color: color("blue", "base");
+    color: color("shades", "white");
+    @include theme-text(lighten(color("blue", "base"), 30%));
+  }
+
+  &.theme-blue-dark {
+    background-color: color("blue", "darken-1");
+    color: color("shades", "white");
+    @include theme-text(color("blue", "lighten-1"));
+  }
   // Manual Overrides
   &.color-primary-light {
     @include theme-text(color("primary", "lighten-1"));

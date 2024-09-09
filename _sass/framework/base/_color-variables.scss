@@ -43,6 +43,13 @@ $pink: (
   "base": #ffe5d9,
   "darken-1": #ffe5d9,
 );
+
+$blue: (
+  "lighten-1": #a9d6e5  ,
+  "base": #89c2d9,
+  "darken-1": #61a5c2,
+);
+
 $shades: (
   "black": #000000,
   "white": #fafafa,
@@ -59,6 +66,7 @@ $colors: (
   "shades": $shades,
   "purple": $purple,
   "pink": $pink,
+  "blue": $blue
 ) !default;
 
 // usage: color("name_of_color", "type_of_color")
