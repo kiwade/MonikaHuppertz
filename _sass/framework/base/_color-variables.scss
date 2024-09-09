@@ -32,6 +32,17 @@ $tertiary: (
   "darken-1": #333a1e,
 );
 
+$purple: (
+  "lighten-1": #e0aaff,
+  "base": #c77dff,
+  "darken-1": #9d4edd,
+);
+
+$pink: (
+  "lighten-1": #ffe5d9,
+  "base": #ffe5d9,
+  "darken-1": #ffe5d9,
+);
 $shades: (
   "black": #000000,
   "white": #fafafa,
@@ -46,6 +57,8 @@ $colors: (
   "tertiary": $tertiary,
   "grey": $grey,
   "shades": $shades,
+  "purple": $purple,
+  "pink": $pink,
 ) !default;
 
 // usage: color("name_of_color", "type_of_color")

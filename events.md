@@ -15,7 +15,7 @@ layout: homepage
   </div>
   <div class="parallax overlay">
     <img class="fade-out-fast" alt="hero"
-      src="assets/images/headerimage.png">
+      src="assets/images/headerimage.jpg">
   </div>
 </div>
 {% include top-message.html theme="theme-tertiary-light" %}
