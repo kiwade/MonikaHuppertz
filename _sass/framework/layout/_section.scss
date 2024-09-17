@@ -133,55 +133,6 @@
     @include theme-text(color("tertiary", "lighten-1"));
   }
 
-  &.theme-purple-light {
-    background-color: color("purple", "lighten-1");
-    @include theme-text(color("purple", "darken-1"));
-  }
-
-  &.theme-purple {
-    background-color: color("purple", "base");
-    color: color("shades", "white");
-    @include theme-text(lighten(color("purple", "base"), 30%));
-  }
-
-  &.theme-purple-dark {
-    background-color: color("purple", "darken-1");
-    color: color("shades", "white");
-    @include theme-text(color("purple", "lighten-1"));
-  }
-
-  &.theme-pink-light {
-    background-color: color("pink", "lighten-1");
-    @include theme-text(color("pink", "darken-1"));
-  }
-
-  &.theme-pink {
-    background-color: color("pink", "base");
-    color: color("shades", "white");
-    @include theme-text(lighten(color("pink", "base"), 30%));
-  }
-
-  &.theme-pink-dark {
-    background-color: color("pink", "darken-1");
-    color: color("shades", "white");
-    @include theme-text(color("pink", "lighten-1"));
-  }
-  &.theme-blue-light {
-    background-color: color("blue", "lighten-1");
-    @include theme-text(color("blue", "darken-1"));
-  }
-
-  &.theme-blue {
-    background-color: color("blue", "base");
-    color: color("shades", "white");
-    @include theme-text(lighten(color("blue", "base"), 30%));
-  }
-
-  &.theme-blue-dark {
-    background-color: color("blue", "darken-1");
-    color: color("shades", "white");
-    @include theme-text(color("blue", "lighten-1"));
-  }
   // Manual Overrides
   &.color-primary-light {
     @include theme-text(color("primary", "lighten-1"));

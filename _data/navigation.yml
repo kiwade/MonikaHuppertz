@@ -1,14 +1,10 @@
-- title: Home
-  url: /
+- title: Kaleidoscope  Healing
+  url: /kaleidoscope.html
 - title: Services
-  url: /Services.html
-- title: Kaleidoscope Fusion
-  url: /kaleidoscope-fusion.html
-- title: Blogs
-  url: /bogs.html
-- title: Testimonials
-  url: /testimonials.html
+  url: /services.html
+- title: Products
+  url: /products.html
 - title: About
   url: /about.html
-- title: Let's Meet
-  url: /contact.html
+- title: Testimonials
+  url: /testimonial.html

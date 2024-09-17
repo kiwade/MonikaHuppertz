@@ -17,7 +17,6 @@ $primary: (
   "darken-1": #38606c,
   "darken-2": #1e333a,
   "darken-3": #0d1518,
-  "darken-4": #023747,
 );
 
 $secondary: (
@@ -30,24 +29,6 @@ $tertiary: (
   "lighten-1": #9aab5e,
   "base": #606c38,
   "darken-1": #333a1e,
-);
-
-$purple: (
-  "lighten-1": #e0aaff,
-  "base": #c77dff,
-  "darken-1": #9d4edd,
-);
-
-$pink: (
-  "lighten-1": #ffe5d9,
-  "base": #ffe5d9,
-  "darken-1": #ffe5d9,
-);
-
-$blue: (
-  "lighten-1": #a9d6e5  ,
-  "base": #89c2d9,
-  "darken-1": #61a5c2,
 );
 
 $shades: (
@@ -64,9 +45,6 @@ $colors: (
   "tertiary": $tertiary,
   "grey": $grey,
   "shades": $shades,
-  "purple": $purple,
-  "pink": $pink,
-  "blue": $blue
 ) !default;
 
 // usage: color("name_of_color", "type_of_color")
